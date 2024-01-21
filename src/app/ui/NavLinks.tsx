@@ -21,7 +21,7 @@ export default function NavLinks() {
                 const LinkIcon = link.icon
                 return (
                     <Link
-                        key='link.name'
+                        key={link.name}
                         href={link.href}
                         className='flex flex-col md:flex-row items-center justify-center gap-2 rounded-md bg-gray-700 p-3 text-sm font-medium hover:bg-red-100 hover:text-blue-950 md:justify-start md:p-2 md:px-3'>
                         <LinkIcon className='w-6' />
