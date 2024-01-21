@@ -1,5 +1,5 @@
 export default function Title(){
     return(
-        <div>Title</div>
+        <div className='w-full text-center bg-gray-700'>Portfolio</div>
     );
 }
