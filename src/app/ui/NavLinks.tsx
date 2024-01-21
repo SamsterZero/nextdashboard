@@ -23,9 +23,9 @@ export default function NavLinks() {
                     <Link
                         key={link.name}
                         href={link.href}
-                        className='flex flex-col md:flex-row items-center justify-center gap-2 rounded-md bg-gray-700 p-3 text-sm font-medium hover:bg-red-100 hover:text-blue-950 md:justify-start md:p-2 md:px-3'>
+                        className='flex flex-col md:flex-row items-center justify-center gap-2 rounded-md  bg-gradient-to-br from-yellow-500 to-green-800 p-3 text-xs font-medium hover:from-red-500 hover:to-yellow-500 hover:text-black md:justify-start md:p-2 md:px-3 md:text-lg'>
                         <LinkIcon className='w-6' />
-                        <p className='md:block'>{link.name}</p>
+                        <p className='md:block text-nowrap'>{link.name}</p>
                     </Link>
                 )
             })}
